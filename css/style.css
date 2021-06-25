@@ -1,6 +1,6 @@
 body, h1, h2, ul, li, p, dd, dt, dl {
-margin:0px;
-padding:0px;
+    margin:0px;
+    padding:0px;
 }
 
 img{
@@ -94,6 +94,9 @@ body{
     grid-column: 2;
 }
 
+.animais-lista li {
+  cursor: pointer;
+}
 .animais-lista::-webkit-scrollbar{
     width: 18px;
 }
@@ -169,7 +172,7 @@ body{
     font-family: 'IBM Plex Mono', monospace;
     font-weight: bold;
 }
-@media (max-width:700px) {
+@media (max-width: 700px) {
     body{
         grid-template-columns: 1fr;
     }
